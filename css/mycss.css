@@ -1,0 +1,180 @@
+.dropDown {
+    position: relative;
+    -webkit-animation: mymove 1.5s;
+    /* Chrome, Safari, Opera */
+    
+    -webkit-animation-iteration-count: 1;
+    /* Chrome, Safari, Opera */
+    
+    -webkit-animation-fill-mode: forwards;
+    /* Chrome, Safari, Opera */
+    
+    animation: mymove 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+/* Chrome, Safari, Opera */
+
+@-webkit-keyframes mymove {
+    from {
+        top: -500px;
+    }
+    to {
+        top: 0px;
+    }
+}
+@keyframes mymove {
+    from {
+        top: -500px;
+    }
+    to {
+        top: 0px;
+    }
+}
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.fade-in {
+    opacity: 0;
+    /* make things invisible upon start */
+    
+    -webkit-animation: fadeIn ease-in 1;
+    /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+    
+    -moz-animation: fadeIn ease-in 1;
+    animation: fadeIn ease-in 1;
+    -webkit-animation-fill-mode: forwards;
+    /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+    
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-duration: 0.8;
+}
+.fade-in.one {
+    -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+.fade-in.two {
+    -webkit-animation-delay: 0.7s;
+    -moz-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+}
+.fade-in.three {
+    -webkit-animation-delay: 1.2s;
+    -moz-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+}
+.fade-in.four {
+    -webkit-animation-delay: 1.4s;
+    -moz-animation-delay: 1.4s;
+    animation-delay: 1.4s;
+}
+body {
+    margin-bottom: 10%;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+.nav-colored {
+    background-color: #000;
+    font-size: 20px;
+}
+.nav-transparent {
+    background-color: transparent;
+}
+.mynav {
+    font-size: 20px;
+    font-weight: 500;
+}
+.menu-btton {
+    background-color: #000;
+}
+.main-button {
+    border-radius: 0;
+    border-color: #093172;
+    background-color: transparent;
+    padding: 1%;
+    display: block;
+    margin: auto;
+    width: auto;
+}
+.main-button:hover,
+.main-buttonk:focus,
+.main-button:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.5);
+}
+.upButtonDiv {
+    text-align: center;
+}
+.upButton {
+    font-size: 15vmin; 
+    margin-top: 5%;
+    padding: 1%;
+}
+.upButton:hover {
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+.jumbotron {
+    background-color: #07bdff;
+    text-align: center;
+    padding-top: 10%;
+    color: #093172;
+    height: auto;
+    -webkit-box-shadow: 0px 19px 115px -7px rgba(0, 0, 0, 0.41);
+    -moz-box-shadow: 0px 19px 115px -7px rgba(0, 0, 0, 0.41);
+    box-shadow: 0px 19px 115px -7px rgba(0, 0, 0, 0.41);
+}
+.image {
+    width: 100%;
+    height: auto;
+}
+.image-div {
+    display: block;
+    margin: auto;
+    width: auto;
+}
+.text {
+    text-align: center;
+    font-size: 4vmin;
+    align-self: center;
+}
+.text-2 {
+    font-size: 0.8em;
+    align-self: center;
+    text-align: center;
+}
+.headingText {
+    font-size: 2em;
+}
+.form {
+    text-align: left;
+    font-size: 0.7em;
+}

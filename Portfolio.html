@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nitin Shokeen</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" , shrink-to-fit=no ">
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous ">
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0\css\font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css\mycss.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	<nav class="navbar navbar-light navbar-expand-lg fixed-top mynav" id="mynav">
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#home"><i class="fa fa-home" aria-hidden="true"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#skills">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#qualification">Qualifications</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="jumbotron jumbotron-fluid dropDown" id="home">
+  <div class="container">
+    <h1 class="display-3 fade-in one">Hey! I'm Nitin.</h1>
+    <p class="lead fade-in two" style="font-weight: 400 ">I am 23 and lives in New Delhi.</p>
+  </div>
+  <h1 class="fade-in three">Mean Stack Developer</h1>
+  <hr class="my-4">
+   <button type="button" class="main-button" onclick="window.location.href='#about'">KNOW MORE</button>
+</div>
+<div class="container-fluid fade-in four">
+	<div class="row" id="about">
+		<div class="col-12 col-md-6 col-lg-6 image-div">
+			<img src="images\portfolio-2.jpg " class="image-fluid image">
+		</div>
+		<div class="col-12 col-md-6 col-lg-6 text">
+			<h3 class="headingText">About Me</h3>
+			<hr>
+			I am a budding mean stack developer. I love to create high performance &#38; rich interactive websites that work across all platforms &#38; devices.
+		</div>
+	</div>
+	<hr>
+	<div class="row" id="skills">
+		<div class="col-12 col-md-6 col-lg-6 text">
+			<h3 class="headingText">Skills</h3>
+			<hr>
+			I currently work on front-end technologies like HTML5, CSS3, Javascript &#38; back-end technologies like JSON. I'm very familiar with using frameworks like Bootstrap.
+			In a quest for always keeping myself updated i always learn new technologies. 
+		</div>
+		<div class="col-12 col-md-6 col-lg-6 image-div">
+			<img src="images\portfolio-3.jpg" class="image-fluid image">
+		</div>
+	</div>
+	<hr>
+	<div class="row " id="qualification">
+		<div class="col-12 col-md-6 col-lg-6 image-div">
+			<img src="images\portfolio-4.jpg" class="image-fluid image">
+		</div>
+		<div class="col-12 col-md-6 col-lg-6 text">
+			<h3 class="headingText">Qualifications</h3>
+			<hr>
+			<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+			B.tech in Computer Science &#38; Engineering
+			<br>
+			<br>
+			<i class="fa fa-certificate" aria-hidden="true"></i>
+			edWisor Mean Stack Developer Certificate
+		</div>
+	</div>
+	<hr>
+	<div class="row" id="contact">
+		<div class="col-12 col-md-6 col-lg-6 text">
+			<h3 class="headingText">Contact</h3>
+			<hr>
+			<i class="fa fa-phone" aria-hidden="true"></i>
+			9015167666
+			<span style="display:inline-block; width: 4px;"></span>
+			<i class="fa fa-envelope" aria-hidden="true"></i>
+			nitinshokeen9@gmail.com
+			<div class="col-12 text-2">
+			Alternatively, you can also drop-in a mail here!
+		</div>
+ 		<form class="form" id="contactForm" onsubmit="formSubmit(); return false;">
+ 			<div class="form-row">
+ 				<div class="col">
+ 				<div class="form-group">
+ 					<label>Name</label>
+ 					<input class="form-control" type="text" id="name" placeholder="Full name" required>
+ 				</div>
+ 				</div>
+ 				<div class="col">
+ 					<div class="form-group">
+    				<label for="exampleFormControlInput1">Email</label>
+    				<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+  					</div>
+  				</div>
+  			</div>
+  			<div class="form-group">
+    			<label for="exampleFormControlTextarea1">Message</label>
+    			<textarea class="form-control" id="exampleFormControlTextarea1" rows="2" required></textarea>
+  			</div>
+  			<div class="col-auto">
+      			<button type="submit" class="main-button">Send</button>
+      			<br>
+    		</div>
+    		<div id="message" class="text-2 alert" role="alert"></div>
+ 		</form>
+		</div>
+		<div class="col-12 col-md-6 col-lg-6 image-div">
+			<img src="images\portfolio-1.jpg" class="image-fluid image">
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-12 upButtonDiv">
+			<i class="fa fa-angle-up upButton" aria-hidden="true" onclick="scrollToTop()"></i>
+		</div>
+	</div>
+</div>
+</body>
+<script type="text/javascript">
+window.addEventListener('scroll', function (e) {
+        var nav = document.getElementById('mynav');
+        if (document.documentElement.scrollTop || document.body.scrollTop > window.innerHeight) {
+                nav.classList.add('nav-colored');
+                nav.classList.remove('nav-transparent');
+                nav.classList.add('navbar-dark');
+                nav.classList.remove('navbar-light');
+
+            } else {
+                nav.classList.add('nav-transparent');
+                nav.classList.remove('nav-colored');
+                nav.classList.add('navbar-light');
+                nav.classList.remove('navbar-dark');
+            }
+    });
+
+function scrollToTop() {
+    if (document.body.scrollTop !== 0 || document.documentElement.scrollTop !== 0) {
+        window.scrollBy(0, -50);
+        requestAnimationFrame(scrollToTop);
+    }
+}
+function formSubmit(){
+            var message = document.getElementById("message");
+            var name =document.getElementById("name").value;
+            var form = document.getElementById("contactForm");
+            form.reset();
+            message.classList.add('alert-success');
+            message.innerHTML= "Thank you "+ name +" ! I'll get back to you soon.";
+        }
+</script>
+</html>
